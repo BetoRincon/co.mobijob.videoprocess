@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86
+description: co.mobijob.videoprocess
+author: Alberto Rincon
+license: Specify your license
+copyright: Copyright (c) 2019 by Your Company
+
+# these should not be edited
+name: co.mobijob.videoprocess
+moduleid: co.mobijob.videoprocess
+guid: 23a36c62-e296-49ec-a497-e4a4377c6129
+platform: android
+minsdk: 7.5.0.GA

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <declare-styleable name="CombinedButton"><attr name="textPrimary"/><attr name="textSecondary"/><attr name="textPrimaryColor"/><attr name="textSecondaryColor"/><attr name="textPrimarySize"/><attr name="textSecondarySize"/><attr name="textExtraSpace"/><attr name="fontPrimaryText"/><attr name="fontSecondaryText"/><attr name="textPrimaryStyle"/><attr name="textSecondaryStyle"/></declare-styleable>
+    <declare-styleable name="CombinedCheckBox"><attr name="textPrimary"/><attr name="textSecondary"/><attr name="textPrimaryColor"/><attr name="textSecondaryColor"/><attr name="textPrimarySize"/><attr name="textSecondarySize"/><attr name="textExtraSpace"/><attr name="fontPrimaryText"/><attr name="fontSecondaryText"/><attr name="textPrimaryStyle"/><attr name="textSecondaryStyle"/></declare-styleable>
+    <declare-styleable name="CombinedRadioButton"><attr name="textPrimary"/><attr name="textSecondary"/><attr name="textPrimaryColor"/><attr name="textSecondaryColor"/><attr name="textPrimarySize"/><attr name="textSecondarySize"/><attr name="textExtraSpace"/><attr name="fontPrimaryText"/><attr name="fontSecondaryText"/><attr name="textPrimaryStyle"/><attr name="textSecondaryStyle"/></declare-styleable>
+    <declare-styleable name="CombinedTextView"><attr format="string" name="textPrimary"/><attr format="string" name="textSecondary"/><attr format="color" name="textPrimaryColor"/><attr format="color" name="textSecondaryColor"/><attr format="dimension" name="textPrimarySize"/><attr format="dimension" name="textSecondarySize"/><attr format="integer" name="textExtraSpace"/><attr format="string" name="fontPrimaryText"/><attr format="string" name="fontSecondaryText"/><attr format="enum" name="textPrimaryStyle">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="boldItalic" value="3"/>
+        </attr><attr format="enum" name="textSecondaryStyle">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="boldItalic" value="3"/>
+        </attr></declare-styleable>
+    <declare-styleable name="RatioFrameLayout"><attr name="axis"/><attr name="horizontalRatio"/><attr name="verticalRatio"/></declare-styleable>
+    <declare-styleable name="RatioLinearLayout"><attr format="enum" name="axis">
+            <enum name="VERTICAL" value="0"/>
+            <enum name="HORIZONTAL" value="1"/>
+        </attr><attr format="float" name="horizontalRatio"/><attr format="float" name="verticalRatio"/></declare-styleable>
+    <declare-styleable name="RatioRelativeLayout"><attr name="axis"/><attr name="horizontalRatio"/><attr name="verticalRatio"/></declare-styleable>
+    <declare-styleable name="RatioView"><attr name="axis"/><attr name="horizontalRatio"/><attr name="verticalRatio"/></declare-styleable>
+    <dimen name="combined_text_view_default_size">12sp</dimen>
+    <plurals name="in_num_days">
+        <item quantity="one">@string/rtime_tomorrow</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> days</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="one">in 1 hour</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> hours</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">in 1 min</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> mins</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="one">@string/rtime_now</item>
+        <item quantity="other">@string/rtime_now</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">1d</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>d</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">1h</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>h</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1m</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>m</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="one">1s</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>s</item>
+    </plurals>
+    <string name="rtime_now">Now</string>
+    <string name="rtime_today">Today</string>
+    <string name="rtime_tomorrow">Tomorrow</string>
+    <string name="rtime_yesterday">Yesterday</string>
+</resources>
